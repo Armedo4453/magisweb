@@ -72,12 +72,12 @@ span{
   .centered3{
     position: absolute;
     top: 95%;
-    left: 43%;
+    left: 40%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color:#2368A2;
+    color:black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
 
   }
 
@@ -87,7 +87,7 @@ span{
   font-size: 24px;
   display: grid;
   place-items: center;
-  width: 370px;
+  width: 400px;
 }
 
 .typed {
@@ -97,6 +97,7 @@ span{
   width: 0;
   animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
   color: white;
+  font-weight: bold;
 }
   
 @keyframes typing {
@@ -115,8 +116,6 @@ span{
   height: 400px;
   background-image:url('../../assets/images/pexels-git-stephen-gitau-1667843.png');
   width: auto;
-
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -126,11 +125,16 @@ span{
 .bloc1{
   height:400px;
   width:780px;
-  background-color:#1770B8;
+  background-color:#0a5592;
   background-blend-mode:multiply ;
   float: right;
-  opacity: 0.7;
+  opacity: 0.8;
   border-radius: 40px 0px 0px 40px;
+}
+.h0{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
 }
 .h1{
   color: white;
@@ -200,7 +204,7 @@ span{
 }
 .pointie{
   width: 200px;
-  height: 200px;
+  height: 150px;
   margin-left:80%;
 }
 .pt{
@@ -267,20 +271,20 @@ html {
   width: 20px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #212121;
+  background-color: #3CAEA3;
   transition: background-color 0.2s linear;
 }
 
 #btn-1:checked ~ .slider-controls label[for="btn-1"] {
-  background-color: #3CAEA3;
+  background-color: black;
 }
 
 #btn-2:checked ~ .slider-controls label[for="btn-2"] {
-  background-color: #3CAEA3;
+  background-color: black;
 }
 
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
-  background-color: #3CAEA3;
+  background-color: black;
 }
 
 /* SLIDES */
@@ -315,7 +319,7 @@ html {
 .slide-title {
   margin-bottom: 20px;
   font-size: 36px;
-  border-bottom: 10px rgb(64, 201, 211) solid;
+  border-bottom: 10px #3CAEA3 solid;
   width:200px;
 }
 
@@ -542,21 +546,24 @@ a{
   height: 550px;
   float: right;
   padding-left: 30px;
-  padding-top: 100px;
+  padding-top: 10px;
   position: relative;
   margin-top: -380px;
   border-radius: 10px;
   opacity: 0.6;
   margin-right: 100px;
   color: white;
-
-
-  
 }
 .form:hover{
   background-color: #2368A2;
   color: white;
   opacity: 10;
+}
+.contact{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 .bfooter{
   height:200px;
@@ -565,3 +572,5 @@ a{
   color: black;
   font-size: 20px;
 }
+
+
