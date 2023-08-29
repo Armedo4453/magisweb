@@ -145,17 +145,13 @@ b{
   }
   .form{
     background-color: #1770B8;
-    width: 430px;
-    height: 550px;
-    float: right;
-    padding-left: 30px;
-    padding-top: 10px;
-    position: relative;
-    margin-top: -380px;
+    width:auto;
     border-radius: 10px;
     opacity: 0.6;
-    margin-right: 100px;
+    padding: 10px;
     color: white;
+    margin-top: -70px;
+    
   }
   .form:hover{
     background-color: #2368A2;
@@ -169,7 +165,7 @@ b{
     font-family: 'Times New Roman', Times, serif;
   }
   .bfooter{
-    height:200px;
+    height:150px;
   }
   .col{
     color: black;
@@ -293,3 +289,23 @@ b{
   
   }
   
+  #staff{
+    width: 100%;
+    height: 314px;
+    background-color:#2368A2;
+    
+  }
+  @media screen and (max-width: 850px) {
+    .staff1{
+            display: none;
+            }
+          }
+@media screen and (max-width: 850px) {
+            #name{
+                    display: none;
+                    }
+                  }
+  #name{
+    color: white;
+    margin-left: -250px;
+  }
