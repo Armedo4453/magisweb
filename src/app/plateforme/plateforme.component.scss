@@ -248,15 +248,15 @@ b{
   
    .approche1 p{
     color: blue;
-    font-size: 25px;
+    font-size: 20px;
    }
   .approche2 p{
     color: blue;
-    font-size: 25px;
+    font-size: 20px;
   }
   .approche3 p{
     color: blue;
-    font-size: 25px;
+    font-size: 20px;
   }
   #sbcenter{
     width: 10px;
@@ -279,6 +279,10 @@ b{
     margin-top: 15px;
     border-radius: 40px;
 
+  }
+  .p{
+    color: blue;
+    font-size:20px;
   }
   .approcheright{
     font-size: 16px;
@@ -309,3 +313,22 @@ b{
     color: white;
     margin-left: -250px;
   }
+  .imgpointie{
+    position: absolute;
+    margin-left: -150px;
+  }
+  .imgpointie2{
+    margin-left: 75%;
+    position: absolute;
+  }
+
+  @media screen and (max-width: 850px) {
+    .approcheright{
+            display: none;
+            }
+          }
+@media screen and (max-width: 850px) {
+    .imgpointie2{
+        display: none;
+            }
+    }
