@@ -6,6 +6,7 @@
     -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
     filter: blur(3px);
 }
+
 .img2{
     width:110px;
     
@@ -124,7 +125,8 @@ span{
 
 .bloc1{
   height:400px;
-  width:780px;
+  width:180%;
+  margin-right: -27%;
   background-color:#0a5592;
   background-blend-mode:multiply ;
   float: right;
@@ -132,8 +134,7 @@ span{
   border-radius: 40px 0px 0px 40px;
 }
 .h0{
-  text-align: center;
-  font-size: 50px;
+  text-align:center;
   font-weight: bold;
 }
 .h1{
@@ -161,10 +162,19 @@ span{
   }
  
 }
+.bloc2{
+  display: block;
+        }
+
+@media screen and (max-width: 850px) {
+.bloc2{
+      display: none;
+      }
+}
 
 .bloc2{
   height:500px;
-  width:520px;
+  width:400px;
   background-color:#4682B4 ;
   opacity: 0.5;
   margin-left: 100px;
@@ -207,6 +217,12 @@ span{
   height: 150px;
   margin-left:80%;
 }
+
+@media screen and (max-width: 767px) {
+  .pointie{
+        display: none;
+        }
+  }
 .pt{
   position: absolute;
   margin-left: -650px;
@@ -395,8 +411,12 @@ html {
 #col1{
   width: 10px;
   color:blue;
-
 }
+@media screen and (max-width: 767px) {
+  #col1{
+        display: none;
+        }
+  }
 #col2{
   width: 10px;
   color:blue;
@@ -513,12 +533,17 @@ a{
   font-size: 25px;
   margin-top: -13px;
 }
-.staff{
+#staff{
   width: 100%;
   height: 314px;
   background-color:#2368A2;
   
 }
+@media screen and (max-width: 767px) {
+  .staff1{
+          display: none;
+          }
+        }
 
 #apropos{
  height: 400px;
@@ -530,7 +555,7 @@ a{
   background-color: #1770B8;
   border-bottom: 2px solid white;
   color: white;
-  width: 320px;
+ 
   
  
 }
@@ -542,17 +567,13 @@ a{
 }
 .form{
   background-color: #1770B8;
-  width: 430px;
-  height: 550px;
-  float: right;
-  padding-left: 30px;
-  padding-top: 10px;
-  position: relative;
-  margin-top: -380px;
+  width:auto;
   border-radius: 10px;
   opacity: 0.6;
-  margin-right: 100px;
+  padding: 10px;
   color: white;
+  margin-top: -6px;
+  
 }
 .form:hover{
   background-color: #2368A2;
@@ -573,4 +594,13 @@ a{
   font-size: 20px;
 }
 
+#chiffre{
+  text-align: center;
+  position: absolute;
+}
 
+@media screen and (max-width: 767px) {
+  .img1{
+        display: none;
+        }
+  }

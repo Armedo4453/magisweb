@@ -11,7 +11,7 @@
    
     <div class="container">
       
-        <img class="img" src="../assets/images/imgpsh_fullsize_anim12.png" alt="Snow" style="width:100%;">
+        <img class="img" id="image" src="../assets/images/imgpsh_fullsize_anim12.png" alt="Snow" style="width:100%;">
         
         <div class="centered">
           <img class="pt" src="../../assets/images/imgpsh_fullsize_animm.png" alt="">
@@ -27,12 +27,21 @@
             <span><button class="btn btn-light">Book a call</button></span>
                        
         </div>
-        <div class="centered3">
-            <p>NOS CLIENTS</p>
-
-        </div>
         
-      </div>
+       
+        <div class="container">
+          <div class="row">
+            <div class="col align-self-center" id="chiffre">
+              <div class="centered3">
+                <p>NOS CLIENTS</p>
+    
+            </div> 
+            </div>
+            
+          </div>
+        </div> 
+        
+      </div> <br><br> <br> <br>
 
       <div class="container">
         <div class="row align-items-end">
@@ -118,24 +127,36 @@
 
     <div class="pointie">
       <img src="../../assets/images/imgpsh_fullsize_animm.png" alt="">
-
     </div>
 
     <div class="image3">
-      <div class="bloc1">
-          <h1 class="h1">DES PLATEFORMES - SOLUTIONS</h1>
-          <h2 class="h2">Personnalisables et efficaces </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-start">
+            <div class="bloc2">
+              <h1 class="fin"> FINTECH
+                </h1>
+                <h2 class="fin2">SOLUTION</h2>
+                <h2 class="fin3">Des solutions adaptées à votre institution financière </h2>
+      
+            </div>
+          </div>
+          <div class="col align-self-center">
+          
+          </div>
+          <div class="col align-self-end">
+            <div class="bloc1">
+              <h1 class="h1">DES PLATEFORMES - SOLUTIONS</h1>
+              <h2 class="h2">Personnalisables et efficaces </h2>
+          </div>
+          </div>
+        </div>
       </div>
-      <div class="bloc2">
-        <h1 class="fin"> FINTECH
-          </h1>
-          <h2 class="fin2">SOLUTION</h2>
-          <h2 class="fin3">Des solutions adaptées à votre institution financière </h2>
-
-      </div>
-     
-   
+    
     </div>
+
+   
+
     <img class="pt2" src="../../assets/images/imgpsh_fullsize_animm.png" alt="">
     <div class="bloc3">
     </div>
@@ -162,7 +183,7 @@
       
       </div>
       <p class="slide-image">
-        <img src="../assets/images/imgpsh_fullsize_anim12.png" alt="stuff" width="500" height="240">
+        <img class="img1" src="../assets/images/imgpsh_fullsize_anim12.png" alt="stuff" width="500" height="240">
       </p>
     </li>
     <li class="slide">
@@ -172,7 +193,7 @@
        
       </div>
       <p class="slide-image">
-        <img src="../assets/images/imgpsh_fullsize_anim7.png" alt="stuff" width="500" height="240">
+        <img class="img1" src="../assets/images/imgpsh_fullsize_anim7.png" alt="stuff" width="500" height="240">
       </p>
     </li>
     <li class="slide">
@@ -182,7 +203,7 @@
         
       </div>
       <p class="slide-image">
-        <img src="../assets/images/imgpsh_fullsize_anim7.png" alt="stuff" width="500" height="240">
+        <img class="img1" src="../assets/images/imgpsh_fullsize_anim7.png" alt="stuff" width="500" height="240">
       </p>
     </li>
   </ul>
@@ -241,26 +262,51 @@
     
   </div>
 </div>
+<br>
+<br><br><br>
+<div id="staff">
 
-<div class="staff">
-  <div class="container">
 
-  
-  <img src="../assets/images/Dorian.png" alt="" width="200">
+  <div class="container" id="staff">
+    <div class="row">
+      <div class="col align-self-start">
+        <div class="staff1">
+          <div class="container">
+        
+          
+          <img src="../assets/images/Dorian.png" alt="" width="200">
+        </div>
+        </div>
+      </div>
+      <div class="col align-self-center">
+      
+      </div>
+      <div class="col align-self-end">
 
-</div>
+          <form class="form">
+            <p>VEUILLEZ NOUS CONTACTER POUR DISCUTER DE VOS BESOINS </p>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nom</label><br>
+              <input type="email" class="inputbox" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">
 
-</div>
-<div class="form">
-  <P class="contact">VEUILLEZ NOUS CONTACTER POUR <br> DISCUTER DE VOS BESOINS</P>
-  <input class="inputbox" placeholder="Nom"/><br> <br>
-  <input class="inputbox" placeholder="Adresse mail"/><br><br>
-  <label for="">Message</label> <br>
-  <textarea name="" id="textarea" cols="30" rows="10"> </textarea><br><br>
-  <button type="button" class="btn btn-outline-info">Envoyer</button>
-  
-  
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Adresse Email</label><br>
+              <input type="password" class="inputbox" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="">Message</label><br>
+              <textarea name="" id="textarea"> </textarea>
+            </div>
+            <button type="button" class="btn btn-outline-light">Envoyer</button>
+          </form>
+      </div>
+    </div>
   </div>
+
+</div>
   <div class="bfooter">
 
   </div>
@@ -271,4 +317,5 @@
    
 </body>
 </html>
+
 
