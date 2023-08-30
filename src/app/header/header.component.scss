@@ -40,6 +40,7 @@
   width: 100px;
   text-align: center;
   font-family: calibri;
+  margin-top: 10px;
 }
 .nav-item2{
   background-color:#63A2D8;
@@ -50,6 +51,7 @@
   text-align: center;
   font-family: calibri;
   line-height: 20px;
+  margin-top: 10px;
 }
 .nav-item3{
   background-color:#63A2D8;
@@ -59,10 +61,17 @@
   text-align: center;
   font-family: calibri;
   line-height: 20px;
+  margin-top: 10px;
 }
+
 .nav-item2:hover{
   background-color:#2368A2;
 }
 .nav-item3:hover{
   background-color:#2368A2;
+}
+
+.collapse:not(.show) {
+  display: inline-block;
+
 }
